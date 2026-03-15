@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#phenomenological-vs-mechanistic-1",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#phenomenological-vs-mechanistic-1",
+    "title": "Introduction to Agent-Based Models",
+    "section": "Phenomenological vs mechanistic",
+    "text": "Phenomenological vs mechanistic\n\n\nPhenomenological/Statistical model: A hypothesized relationship between the variables in the data set, where the relationship seeks only to best describe the data."
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#phenomenological-vs-mechanistic-2",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#phenomenological-vs-mechanistic-2",
+    "title": "Introduction to Agent-Based Models",
+    "section": "Phenomenological vs mechanistic",
+    "text": "Phenomenological vs mechanistic\nFrom Bolker (2008) Ecological models and Data in R, p7:\n\n“All other things being equal, mechanistic models are more powerful since they tell you about the underlying processes driving patterns. They are more likely to work correctly when extrapolating beyond the observed conditions.”"
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#phenomenological-vs-mechanistic-3",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#phenomenological-vs-mechanistic-3",
+    "title": "Introduction to Agent-Based Models",
+    "section": "Phenomenological vs mechanistic",
+    "text": "Phenomenological vs mechanistic\nFrom “Ecological Detective” by Hilborn and Mangel:\n\n“A statistical model foregoes any attempt to explain why the variables interact the way they do, and simply attempts to describe the relationship, with the assumption that the relationship extends past the measured values. Regression models are the standard form of such descriptions…”"
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#regression",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#regression",
+    "title": "Introduction to Agent-Based Models",
+    "section": "Regression",
+    "text": "Regression\n\nRegressions are used to predict and sometimes infer causation.\nFor prediction, causative inference is not needed.\nRegression parameters give associative/phenomenological relationship between variables.\nTo infer causation with regression, additional techniques are necessary to properly interpret slope parameters as causative influence."
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#process-driven-modeling",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#process-driven-modeling",
+    "title": "Introduction to Agent-Based Models",
+    "section": "Process-driven modeling",
+    "text": "Process-driven modeling"
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#the-process-driven-modeling-cycle",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#the-process-driven-modeling-cycle",
+    "title": "Introduction to Agent-Based Models",
+    "section": "The process-driven modeling cycle",
+    "text": "The process-driven modeling cycle\n\n\n\n\n\nModeling cycle\n\n\n\n\nFormulate the question and Assemble hypotheses: The Scientific “Deep Thinking” part\nChoose model structure: Model Design \\(\\leftrightarrow\\) Experimental Design\nImplement the model: Model formulation, model fitting, model diagnostics, and model selection.\nAnalyze the model: What information is contained in our model? What does it imply or predict about the real world?"
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#model-diagnostics",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#model-diagnostics",
+    "title": "Introduction to Agent-Based Models",
+    "section": "Model Diagnostics",
+    "text": "Model Diagnostics\n\n\nFrom Railsback & Grimm:\n\n“Because the assumptions in the first version of a model are experimental, we have to test whether they are appropriate and useful. For this, we need criteria for whether the model can be considered a good representation of the real system. These criteria are based on patterns or regularities that let us identify and characterize the real system in the first place.”\n\n\ntl;dr -&gt;\n\nStatistical models are validated by comparison to quantitative information (data).\n\nMechanistic models are validated by comparison to qualitative information (patterns)."
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#non-linear-process",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#non-linear-process",
+    "title": "Introduction to Agent-Based Models",
+    "section": "Non-linear process",
+    "text": "Non-linear process\nProcess of modeling (POM) is not “linear”!\n\nJust like process of science (POS)"
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#formulate-the-question",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#formulate-the-question",
+    "title": "Introduction to Agent-Based Models",
+    "section": "1. Formulate the question",
+    "text": "1. Formulate the question\n\n“We need to start with a very clear research question…”\n\n\n\n“Very often, even our questions are only experimental and later we might need to reformulate the question, perhaps because it turned out to be not clear enough, or too simple, or too complex.”"
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#assemble-hypotheses",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#assemble-hypotheses",
+    "title": "Introduction to Agent-Based Models",
+    "section": "2. Assemble hypotheses…",
+    "text": "2. Assemble hypotheses…\n…for essential processes and structures\n\n\n“But whatever technique we prefer, this task has to combine existing knowledge and understanding, a ‘brainstorming’ phase in which we wildly hypothesize, and, most importantly, a simplification phase.”\n\n\n\n\n“The modeling cycle must be started with the most simple model possible, because we want to develop understanding gradually, while iterating through the cycle.”\n\n\n\n\n“…just our preliminary understanding of a system is not sufficient for deciding whether things are more or less important for a model. It is the very purpose of the model to teach us what is important.”"
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#choose-model-structure",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#choose-model-structure",
+    "title": "Introduction to Agent-Based Models",
+    "section": "3. Choose model structure",
+    "text": "3. Choose model structure\n\n\nDefinition: A model is a concrete or abstract simplification of objects and their relationships or processes in the real world.\n\n\n\nIn this step, we choose:\n\nObjects (spatial scale, entities, state variables, parameters)\nProcesses (time scale, parameters)\n\n\n\nVerbal formulation of the model!!"
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#implement-the-model",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#implement-the-model",
+    "title": "Introduction to Agent-Based Models",
+    "section": "4. Implement the model",
+    "text": "4. Implement the model\nMathematical or computational formulation of the model!!"
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#analyze-test-and-revise-the-model",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#analyze-test-and-revise-the-model",
+    "title": "Introduction to Agent-Based Models",
+    "section": "5. Analyze, test, and revise the model",
+    "text": "5. Analyze, test, and revise the model\nDoing science with models\n\nExtract information from model through:\n\nSimulation\nAnalysis\n\nUse results to:\n\nExplain\nPredict\nUse as evidence for hypotheses"
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#railsback-grimm---exercise-1",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#railsback-grimm---exercise-1",
+    "title": "Introduction to Agent-Based Models",
+    "section": "Railsback & Grimm - Exercise 1",
+    "text": "Railsback & Grimm - Exercise 1\n\n\nExercise 1: One famous example of how different models must be used to solve different problems in the same system is grocery store checkout queues.\n\n\n\n\nWho is asking the question and for whom will the model affect? (stakeholders)\nWhy are the stakeholders wanting to model the situation? (model function)\nWhat are the relevant objects and processes?\nHow should it be modeled? (model type)"
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#railsback-grimm---exercise-1-1",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#railsback-grimm---exercise-1-1",
+    "title": "Introduction to Agent-Based Models",
+    "section": "Railsback & Grimm - Exercise 1",
+    "text": "Railsback & Grimm - Exercise 1\n\nWho is asking the question and for whom will the model affect? (stakeholders)\nWhy are the stakeholders wanting to model the situation? (model function)\nWhat are the relevant objects and processes?\nHow should it be modeled? (model type)\n\n\n\nCustomer: If you are a customer deciding which queue to enter, how would you model the problem?"
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#railsback-grimm---exercise-1-2",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#railsback-grimm---exercise-1-2",
+    "title": "Introduction to Agent-Based Models",
+    "section": "Railsback & Grimm - Exercise 1",
+    "text": "Railsback & Grimm - Exercise 1\n\nWho is asking the question and for whom will the model affect? (stakeholders)\nWhy are the stakeholders wanting to model the situation? (model function)\nWhat are the relevant objects and processes?\nHow should it be modeled? (model type)\n\n\n\nManager: If you were a store manager deciding how to operate the queues for the next hour or so, what questions would your model address and what would it look like?"
+  },
+  {
+    "objectID": "08_Introduction_To_Agent_Based_Modeling.html#railsback-grimm---exercise-1-3",
+    "href": "08_Introduction_To_Agent_Based_Modeling.html#railsback-grimm---exercise-1-3",
+    "title": "Introduction to Agent-Based Models",
+    "section": "Railsback & Grimm - Exercise 1",
+    "text": "Railsback & Grimm - Exercise 1\n\nWho is asking the question and for whom will the model affect? (stakeholders)\nWhy are the stakeholders wanting to model the situation? (model function)\nWhat are the relevant objects and processes?\nHow should it be modeled? (model type)\n\n\n\nDesigner: If you were a store designer and the question is how to design the checkout area so that 100 customers can check out per hour with the fewest employees, what things would you model?"
+  }
+]
