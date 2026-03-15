@@ -23,8 +23,6 @@ format:
  - Readings
     - Please read Chapter 1: Models, Agent-Based Models, and the Modeling Cycle
     - Please read Chapter 2: Getting Started with NetLogo
- - Exam #2 date change: Friday, April 12 - Friday, April 19
- - Grading Exam #1 this week
 :::
 
 # Phenomenological vs mechanistic
